@@ -107,9 +107,9 @@
                 optDec = false,
                 leadingCount = 0,
                 abbr = '',
-                trillion = 1000000000000,
-                billion = 1000000000,
-                million = 1000000,
+                trillion = 1000000000,
+                billion = 10000000,
+                million = 100000,
                 thousand = 1000,
                 decimal = '',
                 neg = false,
@@ -673,9 +673,9 @@
         },
         abbreviations: {
             thousand: 'k',
-            million: 'm',
-            billion: 'b',
-            trillion: 't'
+            million: 'l',
+            billion: 'cr',
+            trillion: 'ar'
         },
         ordinal: function(number) {
             var b = number % 10;

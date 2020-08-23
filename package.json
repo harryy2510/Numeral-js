@@ -1,5 +1,5 @@
 {
-  "name": "numeral",
+  "name": "@harryy/numeral",
   "version": "2.0.6",
   "description": "Format and manipulate numbers.",
   "homepage": "http://numeraljs.com",
@@ -17,6 +17,7 @@
     "percentage"
   ],
   "main": "./numeral.js",
+  "types": "./numeral.d.ts",
   "engines": {
     "node": "*"
   },
